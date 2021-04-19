@@ -52,7 +52,7 @@ jobs:
       
       - run:
           name: Run Laravel Dusk Tests
-          command: php artisan dusk ./tests/Browser/dna/searchTest.php
+          command: php artisan dusk ./tests/Browser/dna/yStrDnaReportTest.php
           environment:
             APP_URL: https://cora-vuetify-dev.herokuapp.com
       - store_artifacts:
